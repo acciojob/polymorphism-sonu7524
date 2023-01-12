@@ -12,23 +12,21 @@ public class Main {
         p.product(7.98,2.25);
 
     }
-  // create a static Product class otherwise it will showup an error: 
-  // java: non-static variable this cannot be referenced from a static context
-    static class Product{
-      //method 1 with two formal parameters
-        public int product(int x, int y){
-          System.out.println("Method 1");
-            return 0;
-        }
-      //method 2 with same name but having three formal parameters
-        public int product(int x, int y, int z){
-          System.out.println("Method 2");
-            return 0;
-        }
-      //method 3 with same name but having different return type
-        public double product(double x, double y){
-          System.out.println("Method 3");
-            return 0;
-        }
-    }
+}
+class Product{
+  //method 1 with two formal parameters
+  public int product(int x, int y){
+    System.out.println("Method 1");
+    return 0;
+  }
+  //method 2 with same name but having three formal parameters
+  public int product(int x, int y, int z){
+    System.out.println("Method 2");
+    return 0;
+  }
+  //method 3 with same name but having different return type
+  public double product(double x, double y){
+    System.out.println("Method 3");
+    return 0;
+  }
 }
