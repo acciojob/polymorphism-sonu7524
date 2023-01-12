@@ -12,19 +12,21 @@ public class Main {
         p.product(7.98,2.25);
 
     }
-  public static class Product{
-    //method 1 with two formal parameters
-    public int product(int x, int y){
-      return 0;
+    public static class Product{
+        //method 1 with two formal parameters
+        public int product(int x, int y){
+            return 35;
+        }
+        //method 2 with same name but having three formal parameters
+        public int product(int x, int y, int z){
+            return 480;
+        }
+        //method 3 with same name but having different return type
+        public double product(double x, double y){
+            return 40.32;
+        }
     }
-    //method 2 with same name but having three formal parameters
-    public int product(int x, int y, int z){
-      return 0;
-    }
-    //method 3 with same name but having different return type
-    public double product(double x, double y){
-      return 0;
-    }
-  }
+
 }
+
 
