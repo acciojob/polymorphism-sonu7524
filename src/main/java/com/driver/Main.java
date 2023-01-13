@@ -15,15 +15,16 @@ public class Main {
     public static class Product{
         //method 1 with two formal parameters
         public int product(int x, int y){
-            return 35;
+            return x*y;
         }
         //method 2 with same name but having three formal parameters
         public int product(int x, int y, int z){
-            return 480;
+            return x*y*z;
         }
         //method 3 with same name but having different return type
         public double product(double x, double y){
-            return 40.32;
+
+            return x*y;
         }
     }
 
